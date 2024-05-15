@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/* Midterm Project ITD110
+        Author: Katherine Robbins
+        Date: 03/02/2023
+        */
+body{
+    height: 100%;
+    color: whitesmoke;
+    font-family: helvetica;
+}
+a:hover{
+    color: rgb(199, 166, 84);
+}
+/*Navagation Bar */
+
+.navbar{
+    background-color: black;
+    background-image: url("./images/blackhouse_background.png");
+    color: white;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    max-width: 960px;
+}
+.logo{
+    position: absolute;
+    top: -88px;
+    left: 16px;
+}
+.logo2{
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+ .ulmenu{
+    position: fixed;
+    top: 4px;
+    left: 1300px;
+ }
+ .ulmenu li{
+    display: inline;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+ 
+ }
+ .ulmenu li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+ }
+ .ulmenu a:hover{
+     color: rgb(199, 166, 84);
+ }
+ 
+ /*heading styles*/
+h1{
+    color: rgb(199, 166, 84);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 255, 255);
+   }
+   /*table style*/
+
+
+th,tr,td{
+    border-radius: 25px;
+    padding: 20px;
+}
+/* About Me Page*/
+
+.aboutme{
+    position: static;
+    border-radius: 25px;
+    height: 281px;
+    width: 1000px;
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 11pt;
+    padding: 8px;
+    color: black;
+}
+.headshot{
+    float: center;
+    border-radius: 25px;
+    height: 530px;
+    width: 356px;
+    margin: 20px;
+}
+/*bullet list*/
+#service_areas{
+    color: black;
+    position: static;
+    height: 281px;
+    width: 1000px;
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 11pt;
+    padding: 8px;
+}
+#service_areas ul{
+    list-style: circle;
+}
